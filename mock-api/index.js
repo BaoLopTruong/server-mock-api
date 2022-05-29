@@ -3,7 +3,7 @@ const apiMocker = require("connect-api-mocker");
 const cors = require("cors");
 
 const app = express();
-const port = "https://baoloptruong.github.io/";
+const port = "https://baoloptruong.github.io/mock-api";
 
 app.use(cors({ origin: true, credentials: true }));
 
