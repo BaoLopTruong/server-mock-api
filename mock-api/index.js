@@ -12,4 +12,4 @@ app.use("/api", apiMocker("mock-api"));
 
 // app.listen(port, () => console.log(`Server listening on port ${port}!`));
 
-app.listen(hostname, () => console.log(`Server listening on port ${port}!`));
+app.listen(port, () => console.log(`Server listening on port ${port}!`));
